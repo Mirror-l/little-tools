@@ -9,5 +9,6 @@ setup(name='autopep8-dir',
       py_modules=['autopep8_dir'],
       install_requires=['autopep8', 'docopt'],
       entry_points={'console_scripts': ['autopep8_dir = autopep8_dir:main']},
-      zip_safe=False
+      zip_safe=False,
+      license='MIT'
       )
