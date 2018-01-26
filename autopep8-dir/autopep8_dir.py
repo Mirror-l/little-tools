@@ -1,7 +1,7 @@
 """autopep8_dir
 
 Usage:
-  autopep8_dir (<dir>)
+  autopep8_dir <dir>
 
 Options:
   -h --help     Show this screen.
