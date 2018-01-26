@@ -1,0 +1,17 @@
+version: '2'
+services:
+  ssh-1:
+    restart: always
+    image: rastasheep/ubuntu-sshd:16.04
+    ports:
+      - "45521:22"
+  ssh-2:
+    restart: always
+    image: rastasheep/ubuntu-sshd:16.04
+    ports:
+      - "45522:22"
+  ssh-3:
+    restart: always
+    image: rastasheep/ubuntu-sshd:16.04
+    ports:
+      - "45523:22"
